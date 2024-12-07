@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Şikayet ve Öneriler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4b942;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .action-buttons button {
+            margin-right: 5px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .edit {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .delete {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Şikayet ve Öneriler</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Kategori</th>
+                <th>Başlık</th>
+                <th>İçerik</th>
+                <th>E-posta</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Şikayet</td>
+                <td>Geç Teslimat</td>
+                <td>Çiçekler belirtilen saatten sonra geldi.</td>
+                <td>musteri1@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Öneri</td>
+                <td>Yeni Türler</td>
+                <td>Daha fazla orkide çeşidi eklenebilir.</td>
+                <td>musteri2@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+            <!-- Eklenen Örnekler -->
+            <tr>
+                <td>3</td>
+                <td>Şikayet</td>
+                <td>Eksik Ürün</td>
+                <td>Siparişimde eksik ürün vardı.</td>
+                <td>musteri3@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Öneri</td>
+                <td>İndirim Kampanyası</td>
+                <td>Özel günlerde daha fazla indirim yapılabilir.</td>
+                <td>musteri4@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Şikayet</td>
+                <td>Hasarlı Ürün</td>
+                <td>Çiçekler hasarlı şekilde teslim edildi.</td>
+                <td>musteri5@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Öneri</td>
+                <td>Paketleme</td>
+                <td>Daha şık paketleme yapılabilir.</td>
+                <td>musteri6@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Şikayet</td>
+                <td>Müşteri Hizmetleri</td>
+                <td>Müşteri temsilcileri ulaşılabilir değil.</td>
+                <td>musteri7@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Öneri</td>
+                <td>Mobil Uygulama</td>
+                <td>Mobil uygulama geliştirilmesi faydalı olur.</td>
+                <td>musteri8@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Şikayet</td>
+                <td>Kargo Sorunu</td>
+                <td>Kargo teslimatında problem yaşandı.</td>
+                <td>musteri9@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Öneri</td>
+                <td>Yeni Kampanyalar</td>
+                <td>Daha fazla kampanya yapılabilir.</td>
+                <td>musteri10@example.com</td>
+                <td>
+                    <button class="edit">Düzenle</button>
+                    <button class="delete">Sil</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çiçek Dükkanı - Konum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 80%;
+            height: 400px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .update-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .update-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Çiçek Dükkanınızın Konumu</h1>
+        <!-- Google Maps Embed -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24102.410953058374!2d29.006330265694097!3d40.19862338198609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca17f3c0c2ec41%3A0x1f72487eb4b1d5a0!2sFethiye%20Mahallesi%2C%20Nil%C3%BCfer%2FBursa!5e0!3m2!1str!2str!4v1698309223658!5m2!1str!2str" 
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+        <!-- Update Location Button -->
+        <a class="update-btn" href="https://www.google.com/maps" target="_blank">Konumunuzu Güncelle</a>
+    </div>
+</body>
+
+</html>
+
