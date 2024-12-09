@@ -1,6 +1,5 @@
-Bu raporda Web tasarımı dersinin web sitesi
-tasarlama sürecini ve aşamalarını ayrıntılı olarak ele
-alınmıştır.Hazır şablon themewagon sitesinde bulunan AmadoFurniture şablonu kullanılarak Çiçekli Düşler adı altında
+Bu proje bir çiçek satış web sitesi tasarım projesidir 
+Hazır şablon themewagon sitesinde bulunan AmadoFurniture şablonu kullanılarak Çiçekli Düşler adı altında
 değiştirilip isterlere göre uyarlanmıştır
 Özellikler
 Kullanıcı Paneli
@@ -20,8 +19,6 @@ Misyon-Vizyon: Güncelleme bölümü.
 Birimlerimiz: Yeni birim ekleme ve mevcut birimlerin düzenlenmesi.
 Sipariş Yönetimi: Sipariş takibi ve durumu güncelleme.
 Kampanyalar: Yeni kampanya ekleme ve düzenleme.
-Teknolojiler
-Proje, modern web geliştirme teknolojileri ile hazırlanmıştır:
+gibi özelliklere sahiptir
 
-HTML5 ve CSS3: Şablon yapısı ve stil oluşturma.
-JavaScript: Kullanıcı etkileşimleri için.
+
